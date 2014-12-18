@@ -3,10 +3,11 @@ public class Cell {
   
   private ????? value; //Finish this part up
   
-  public Cell() { //Finish this part up
-  }
+  public Cell c1 = new Cell(){
+    }//Finish this part up
   
-  public Cell(String input) { //Finish this part up
+  public Cell c2 = new Cell(?????? input) { //Finish this part up
+  value = input;
   }
   
   public double getValue() {
