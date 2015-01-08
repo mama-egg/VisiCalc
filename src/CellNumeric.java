@@ -1,13 +1,6 @@
-public class VisiCalc extends Cell {
+public class CellNumeric extends Cell {
+  super("");
   
-  super(value);
-  
-  public VisiCalc v1= new VisiCalc() {
-    
-  }
-  
-  public VisiCalc v2= new VisiCalc() {
-    VisiCalc.setValue(value);
-  }
+  public CellNumeric()
   
 }
