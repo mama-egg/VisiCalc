@@ -49,7 +49,7 @@ public class Cell {
       input = dateFormat.format(date);
     }
     catch (Exception e) {
-      input = " ";
+      input = "";
     }
     super.setValue(input);
   }
